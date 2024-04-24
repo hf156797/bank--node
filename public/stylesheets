@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Hellblau */
+}
+ 
+header {
+    background-color: #42aaff; /* Dunkleres Hellblau für Header */
+    color: #fff;
+    padding: 20px;
+}
+ 
+header h1 {
+    margin: 0;
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+#hero {
+    background-color: #00bfff; /* Mittleres Hellblau für Hero-Sektion */
+    padding: 50px;
+    text-align: center;
+}
+ 
+#about, #services {
+    padding: 50px;
+}
+ 
+footer {
+    background-color: #2e8edd; /* Dunkleres Hellblau für Footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    align-items: center;
+  }
+ 
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+   
+  }
