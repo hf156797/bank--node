@@ -35,4 +35,4 @@ app.listen(PORT, HOST);
 // Mit der Anweeisung Konsole.log() Wird dem Server Administrator auf der Konsole angezeigt, waa der server macht.  Der Programmierer sxchreibt dazu in die runden Klammern  den ausdruck den ausdruck,  der auf konsole angezeigt werden soll. die werte der beiden Konstaten Host und port werden in den Ausdruck übergeben. ein Verb mit anschliessenden klammer steht immer für eine Anweisung etwas zu tun.
 console.log(`Running on http://${HOST}:${PORT}`);
 
-require("./uebungen/02-boolean.js");  //Mit der Funktion require wird die Datei in den runden Klammern eingelesen.
+require("./uebungen/03-objekte.js");  //Mit der Funktion require wird die Datei in den runden Klammern eingelesen.
