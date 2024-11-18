@@ -40,11 +40,25 @@ app.get('/', (req, res) => {
 //Wenn im Browser die Addresse... /AGB aufgerufen wird, wird der Server aufgefordert, 
 //die angefragte Seite an den Browser zuzückzugeben
 //Der Server arbeitet dazu die Funktion App.get('agb...) ab.
-app.get('agb',(req,res) => {
+app.get('/agb',(req,res) => {
    //Der Server geht die gerenderte ejs an den Browser zurück.
     res.render('agb.ejs',{});
 });
  
+app.get('/hilfe',(req,res) => {
+    //Der Server geht die gerenderte ejs an den Browser zurück.
+     res.render('hilfe.ejs',{});
+ });
+
+ app.get('/postfach',(req,res) => {
+    //Der Server geht die gerenderte ejs an den Browser zurück.
+     res.render('postfach.ejs',{});
+ });
+
+ app.get('/profil',(req,res) => {
+    //Der Server geht die gerenderte ejs an den Browser zurück.
+     res.render('profil.ejs',{});
+ });
 // Mit listen wird der server angewiesen , Auf den angegebenen Host un d Port zu lauschen
 app.listen(PORT, HOST);
  
